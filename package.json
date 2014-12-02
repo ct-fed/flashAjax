@@ -1,0 +1,27 @@
+{
+  "name": "flashAjax",
+  "version": "0.0.1",
+  "description": "通过flash解决ajax请求无法跨域问题的jquery插件",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ct-fed/flashAjax.git"
+  },
+  "keywords": [
+    "flash",
+    "ajax",
+    "cross",
+    "domain"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ct-fed/flashAjax/issues"
+  },
+  "homepage": "https://github.com/ct-fed/flashAjax",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-uglify": "^1.0.1"
+  }
+}

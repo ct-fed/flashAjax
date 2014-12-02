@@ -103,6 +103,7 @@
     };
     var sendRequest = function (id) {
         var ins = getInstance(id);
+        console.log('sendRequest', ins.url, id);
         getFlash().asSend({
             url: ins.url,
             data: ins.data,

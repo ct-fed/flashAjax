@@ -8,16 +8,15 @@
 </head>
 <body>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="src/swfobject.js"></script>
-<script src="src/flashAjax.min.js"></script>
+<script src="flashAjax.min.js"></script>
 <script>
     $.flashAjax({
-        url : '', //接口地址
+        url : 'http://localhost:8084/data.json', //接口地址
         type : 'POST',
         data : {
             info : 11093
         },
-        flashUrl : '', //flash地址
+        flashUrl : 'crossdomain.swf', //flash地址
         onReady : function(){ //return false时不会发送请求
             alert('onReady');
         },
